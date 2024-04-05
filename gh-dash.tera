@@ -1,0 +1,24 @@
+---
+whiskers:
+  version: 2.0.0
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/{{ flavor.identifier }}/{{ accent }}.yml"
+---
+{%- set palette = flavor.colors -%}
+theme:
+  colors:
+    text:
+      primary: "#{{ palette.text.hex }}"
+      secondary: "#{{ palette[accent].hex }}"
+      inverted: "#{{ palette.crust.hex }}"
+      faint: "#{{ palette.subtext1.hex }}"
+      warning: "#{{ palette.red.hex }}"
+      success: "#{{ palette.green.hex }}"
+    background:
+      selected: "#{{palette.surface0.hex }}"
+    border:
+      primary: "#{{ palette[accent].hex }}"
+      secondary: "#{{ palette.surface1.hex }}"
+      faint: "#{{ palette.surface0.hex }}"
