@@ -36,8 +36,8 @@
 
 ## Installation
 
-1. Clone this repository locally
-2. Copy the theme you want to use from the `themes` directory into your `~/.config/gh-dash/config.yml`
+1. Download your desired theme from the `themes` directory
+2. Copy the theme you want to use into `~/.config/gh-dash/config.yml`
 
 ## 💝 Thanks to
 
