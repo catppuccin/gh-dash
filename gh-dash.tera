@@ -14,8 +14,9 @@ theme:
       secondary: "#{{ palette[accent].hex }}"
       inverted: "#{{ palette.crust.hex }}"
       faint: "#{{ palette.subtext1.hex }}"
-      warning: "#{{ palette.red.hex }}"
+      warning: "#{{ palette.yellow.hex }}"
       success: "#{{ palette.green.hex }}"
+      error: "#{{ palette.red.hex }}"
     background:
       selected: "#{{palette.surface0.hex }}"
     border:
