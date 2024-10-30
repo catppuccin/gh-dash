@@ -5,8 +5,9 @@ theme:
       secondary: "#85c1dc"
       inverted: "#232634"
       faint: "#b5bfe2"
-      warning: "#e78284"
+      warning: "#e5c890"
       success: "#a6d189"
+      error: "#e78284"
     background:
       selected: "#414559"
     border:
